@@ -35,6 +35,10 @@ public class Human implements Alive {
         nextId++;
     }
 
+    public String getPosition() {
+        return "Человек";
+    }
+
     public List<Human> getChildren() {
         return Collections.unmodifiableList(children);
     }
